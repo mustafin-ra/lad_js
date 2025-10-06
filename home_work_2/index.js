@@ -40,11 +40,11 @@ let productInBasketList;
 // автор, год издания и количество страниц.
 // Как назвать переменную для всей книги? А для свойств внутри неё?
 
-const Book = {
-    name,
-    autohr,
-    publicationYear,
-    pageCount,
+const book = {
+    name: "JavaScript",
+    autohr: "Brendan Eich",
+    publicationYear: 1995,
+    pageCount: 1053,
 };
 
 // **5. Вычисляемые значения**

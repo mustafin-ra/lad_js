@@ -157,10 +157,12 @@ let isPalindrome = (str) => {
         i++
     ) {
         if (
-            cleanStr[i] !==
+            cleanStr[
+                i
+            ].toLowerCase() !==
             cleanStr[
                 cleanStr.length - 1 - i
-            ]
+            ].toLowerCase()
         ) {
             return false;
         }
@@ -170,6 +172,6 @@ let isPalindrome = (str) => {
 
 console.log(
     isPalindrome(
-        " ,  ш        , .....   ала     ,,,       ш   ",
+        " ,  ш        , .....   Ала     ,,,       ш   ",
     ),
 );

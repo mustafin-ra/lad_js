@@ -24,7 +24,7 @@
 //     }
 // }
 
-// let worker1 = new Worker("Renat", "Mustafin", 1000, 15);
+// const worker1 = new Worker("Renat", "Mustafin", 1000, 15);
 // worker1.getSalary();
 // console.log(worker1.getFullName());
 
@@ -47,7 +47,7 @@
 //     }
 // }
 
-// let boss1 = new Boss("Ivan", "Trotskiy", 2000, 15, 6);
+// const boss1 = new Boss("Ivan", "Trotskiy", 2000, 15, 6);
 // boss1.getSalary();
 // console.log(boss1.getFullName());
 
@@ -85,7 +85,7 @@
 //     }
 // }
 
-// let worker1 = new Worker("Renat", "Mustafin", 1000, 15);
+// const worker1 = new Worker("Renat", "Mustafin", 1000, 15);
 // worker1.rate = 1700;
 // worker1.days = 22;
 // console.log(worker1.rate, worker1.days);
@@ -161,7 +161,7 @@
 //     }
 // }
 
-// let validator1 = new Validator();
+// const validator1 = new Validator();
 // console.log(validator1.isEmail("mustafin.ra@mail.ru"));
 // console.log(validator1.isDomain("unn.com"));
 // console.log(validator1.isDate("24/11/2025"));
@@ -197,11 +197,11 @@
 //     }
 //     getCourse() {
 //         let today = new Date();
-//         let currentYear = today.getFullYear();
+//         let currentYear = today.getFullYear();/*можно короче  let currentYear=new Date().getFullYear()*/
 //         console.log(currentYear - this.year);
 //     }
 // }
 
-// let student1 = new Student("Юрий", "Гагарин", 2020);
+// const student1 = new Student("Юрий", "Гагарин", 2020);
 // student1.getFullName();
 // student1.getCourse();

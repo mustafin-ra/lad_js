@@ -34,7 +34,8 @@ form.appendChild(document.createElement("br"));
 form.appendChild(submitButton);
 container.appendChild(form);
 
-submitButton.addEventListener("click", function () {
+submitButton.addEventListener("click", function (event) {
+    event.preventDefault();
     const text = document.createElement("p");
     text.textContent = document.getElementById("inputText").value;
     container.appendChild(text);

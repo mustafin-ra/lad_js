@@ -37,6 +37,9 @@ container.appendChild(form);
 submitButton.addEventListener("click", function (event) {
     event.preventDefault();
     const text = document.createElement("p");
-    text.textContent = document.getElementById("inputText").value;
+    text.textContent = document
+        .getElementById("inputText")
+        .value.trim();
+    document.getElementById("inputText").value = "";
     container.appendChild(text);
 });

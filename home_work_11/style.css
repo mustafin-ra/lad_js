@@ -1,0 +1,27 @@
+h1 {
+    margin: auto;
+    width: fit-content;
+
+    padding: 12px;
+
+    font-size: 32px;
+    background-color: #79ff57;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.todo-section {
+    margin-top: 24px;
+
+    display: grid;
+    justify-content: center;  
+}
+
+.todo-section__todo-add {
+    /* display: flex;
+    column-gap: 12px; */
+}
+
+.done{
+    text-decoration:line-through;
+}

@@ -200,3 +200,4 @@
 
 const userAge=20;
 userAge="ky";
+const userAge2="20";

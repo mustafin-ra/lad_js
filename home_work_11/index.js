@@ -68,7 +68,7 @@ function showToDoList() {
     }
 }
 
-const handler = () => {
+const handler = () => {//вызывается при нажатии на кнопку addBtn
     const text = textInput.value.trim();
     if (text) {
         //если текстовое значение затримленное есть
@@ -84,7 +84,7 @@ const handler = () => {
     }
 };
 
-addBtn.addEventListener("click", handler); //вызывается при нажатии на кнопку
+addBtn.addEventListener("click", handler); //вешаем слушателя на кнопку, handler вызывается при нажатии на кнопку
 
 input.addEventListener("keyup", (event) => {
     //вешаем на input слушателя, который будет реагировать на нажатие Enter - а

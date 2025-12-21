@@ -198,6 +198,6 @@
 // 5 console.log("promise2");//выполняется функция из обработчика коллбэка первой микрозадачи
 // 6 console.log("timer2");//выполняется блок асинхронной функции из очереди макрозадач
 
-const userAge=20;
-userAge="ky";
-const userAge2="20";
+const userAge = 20;
+userAge = "ky";
+const userAge2 = "204";
